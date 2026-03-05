@@ -33,19 +33,19 @@ I thrive on solving complex engineering challenges—whether it's optimizing a F
 
 #### [RULE THE WORLD](https://github.com/amanamarjit243222/RULE-THE-WORLD)
 > A hyper-realistic geopolitical & macroeconomic strategy simulator. Built with a custom modular JavaScript engine and complex state management.
-> [**Live Demo**](https://ruletheworldmadebyaaj.netlify.app/)
+> ![JS Tests](https://github.com/amanamarjit243222/RULE-THE-WORLD/actions/workflows/js-tests.yml/badge.svg) | [**Live Demo**](https://ruletheworldmadebyaaj.netlify.app/)
 
 #### [Knowledge Synthesizer](https://github.com/amanamarjit243222/Knowledge-Synthesizer)
 > An AI-powered knowledge engine that transforms raw discussions into visual semantic maps. Features a robust **FastAPI backend** and NLP pipelines.
-> [**Live Demo**](https://knowledge-synthesizer.netlify.app/)
+> ![Python Tests](https://github.com/amanamarjit243222/Knowledge-Synthesizer/actions/workflows/python-tests.yml/badge.svg) | [**Live Demo**](https://knowledge-synthesizer.netlify.app/)
 
 #### [Face Recognition (Biometric Engine)](https://github.com/amanamarjit243222/Face-recognition)
 > Privacy-first biometric access control system using client-side TensorFlow.js. Designed for high-security enterprise environments.
-> [**Live Demo**](https://identity-verification-system.netlify.app/)
+> ![JS Tests](https://github.com/amanamarjit243222/Face-recognition/actions/workflows/js-tests.yml/badge.svg) | [**Live Demo**](https://identity-verification-system.netlify.app/)
 
 #### [Solar System (Gesture UI)](https://github.com/amanamarjit243222/solar-system-using-hand-gesture)
 > Immersive 3D physics engine and visualization controlled via real-time hand gestures. Powered by **Three.js** and **MediaPipe**.
-> [**Live Demo**](https://solarsystemwithhandgestures.netlify.app/)
+> ![JS Tests](https://github.com/amanamarjit243222/solar-system-using-hand-gesture/actions/workflows/js-tests.yml/badge.svg) | [**Live Demo**](https://solarsystemwithhandgestures.netlify.app/)
 
 ---
 
@@ -63,7 +63,7 @@ I thrive on solving complex engineering challenges—whether it's optimizing a F
 
 **Security & Tools**
 - Biometric Verification Systems
-- Git, CI/CD, Netlify
+- Git, CI/CD (GitHub Actions), Netlify
 - Secure Data Management (IndexedDB, JWT)
 
 ---
@@ -79,10 +79,8 @@ I thrive on solving complex engineering challenges—whether it's optimizing a F
 ---
 
 <p align="center">
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=icloud&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://github.com/amanamarjit243222">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
+
