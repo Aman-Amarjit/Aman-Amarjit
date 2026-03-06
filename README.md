@@ -23,7 +23,7 @@ I am a **Fullstack and Backend Developer** dedicated to building high-performanc
 
 I thrive on solving complex engineering challenges—whether it's optimizing a FastAPI backend, securing biometric data, or crafting immersive 3D visualizations.
 
-- 🧠 **AI & Machine Learning**: Specialized in NLP graph logic, Computer Vision, and real-time gesture recognition.
+- 🧠 **AI & Machine Learning**: Specialized in NLP graph logic, Computer Vision and real-time gesture recognition.
 - 🛡️ **Cybersecurity**: Deep interest in zero-trust architectures and client-side biometric verification.
 - 🤖 **Robotics**: Passionate about human-machine interfaces and bridging digital systems with the physical world.
 
