@@ -1,3 +1,4 @@
+
 <!-- ============================================================
      AMAN AMARJIT — GitHub Profile README
      Systems Architect · AI Engineer · Security Researcher
@@ -11,19 +12,19 @@
 
 <div align="center">
 
-<a href="https://github.com/amanamarjit243222">
+<a href="https://github.com/Aman-Amarjit">
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=14&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&repeat=true&width=650&height=36&lines=Architecting+intelligent%2C+secure%2C+high-performance+systems;Fullstack+%7C+AI+%7C+Zero-Trust+Security+%7C+Robotics;Building+at+the+intersection+of+AI+and+cybersecurity;From+biometric+engines+to+geopolitical+simulators" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
 
-<a href="https://github.com/amanamarjit243222">
-<img src="https://img.shields.io/badge/GitHub-amanamarjit243222-0a1628?style=for-the-badge&logo=github&logoColor=67e8f9&labelColor=0d2137"/>
+<a href="https://github.com/Aman-Amarjit">
+<img src="https://img.shields.io/badge/GitHub-Aman--Amarjit-0a1628?style=for-the-badge&logo=github&logoColor=67e8f9&labelColor=0d2137"/>
 </a>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=amanamarjit243222&style=for-the-badge&color=0a1628&label=PROFILE+VIEWS&labelColor=0d2137"/>
+<img src="https://komarev.com/ghpvc/?username=Aman-Amarjit&style=for-the-badge&color=0a1628&label=PROFILE+VIEWS&labelColor=0d2137"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/amanamarjit243222?style=for-the-badge&color=0a1628&labelColor=0d2137&label=FOLLOWERS&logo=github&logoColor=67e8f9"/>
+<img src="https://img.shields.io/github/followers/Aman-Amarjit?style=for-the-badge&color=0a1628&labelColor=0d2137&label=FOLLOWERS&logo=github&logoColor=67e8f9"/>
 
 </div>
 
@@ -107,7 +108,7 @@
 <td width="8%" align="center" valign="top"><br/><sub><b>01</b></sub></td>
 <td width="54%" valign="top">
 
-**[RULE THE WORLD](https://github.com/amanamarjit243222/RULE-THE-WORLD)** &nbsp;🌍
+**[RULE THE WORLD](https://github.com/Aman-Amarjit/RULE-THE-WORLD)** &nbsp;🌍
 **Geopolitical & Macroeconomic Strategy Simulator**
 
 Sovereign-grade simulation built on a **custom modular JS engine** — no framework dependencies. Multi-variable economic modeling, real-time diplomatic state machines, and emergent geopolitical logic.
@@ -118,9 +119,9 @@ Sovereign-grade simulation built on a **custom modular JS engine** — no framew
 <td width="38%" valign="top" align="right">
 
 ![JS](https://img.shields.io/badge/JavaScript_ES6+-0a1628?style=flat-square&logo=javascript&logoColor=22d3ee)
-![CI](https://github.com/amanamarjit243222/RULE-THE-WORLD/actions/workflows/js-tests.yml/badge.svg)
+![CI](https://github.com/Aman-Amarjit/RULE-THE-WORLD/actions/workflows/js-tests.yml/badge.svg)
 
-[**↗ Live Demo**](https://ruletheworldmadebyaaj.netlify.app/) &nbsp;·&nbsp; [**↗ Source**](https://github.com/amanamarjit243222/RULE-THE-WORLD)
+[**↗ Live Demo**](https://ruletheworldmadebyaaj.netlify.app/) &nbsp;·&nbsp; [**↗ Source**](https://github.com/Aman-Amarjit/RULE-THE-WORLD)
 
 </td>
 </tr>
@@ -131,7 +132,7 @@ Sovereign-grade simulation built on a **custom modular JS engine** — no framew
 <td width="8%" align="center" valign="top"><br/><sub><b>02</b></sub></td>
 <td width="54%" valign="top">
 
-**[KNOWLEDGE SYNTHESIZER](https://github.com/amanamarjit243222/Knowledge-Synthesizer)** &nbsp;🧠
+**[KNOWLEDGE SYNTHESIZER](https://github.com/Aman-Amarjit/Knowledge-Synthesizer)** &nbsp;🧠
 **AI-Powered Semantic Knowledge Graph Engine**
 
 Transforms raw discussions into **live visual semantic maps** via NLP pipelines. Extracts entities, infers concept relationships, and renders real-time knowledge topology on a graph canvas.
@@ -142,9 +143,9 @@ Transforms raw discussions into **live visual semantic maps** via NLP pipelines.
 <td width="38%" valign="top" align="right">
 
 ![Python](https://img.shields.io/badge/Python-0a1628?style=flat-square&logo=python&logoColor=22d3ee)
-![CI](https://github.com/amanamarjit243222/Knowledge-Synthesizer/actions/workflows/python-tests.yml/badge.svg)
+![CI](https://github.com/Aman-Amarjit/Knowledge-Synthesizer/actions/workflows/python-tests.yml/badge.svg)
 
-[**↗ Live Demo**](https://knowledge-synthesizer.netlify.app/) &nbsp;·&nbsp; [**↗ Source**](https://github.com/amanamarjit243222/Knowledge-Synthesizer)
+[**↗ Live Demo**](https://knowledge-synthesizer.netlify.app/) &nbsp;·&nbsp; [**↗ Source**](https://github.com/Aman-Amarjit/Knowledge-Synthesizer)
 
 </td>
 </tr>
@@ -155,7 +156,7 @@ Transforms raw discussions into **live visual semantic maps** via NLP pipelines.
 <td width="8%" align="center" valign="top"><br/><sub><b>03</b></sub></td>
 <td width="54%" valign="top">
 
-**[DISCORD AI PERSONA](https://github.com/amanamarjit243222/discord-ai)** &nbsp;🤖
+**[DISCORD AI PERSONA](https://github.com/Aman-Amarjit/discord-ai)** &nbsp;🤖
 **Autonomous Social Intelligence Agent**
 
 Advanced autonomous AI persona powered by **Google Gemini**. Maintains episodic memory across sessions, models human behavioral cadence, and engages with contextually authentic natural language.
@@ -168,7 +169,7 @@ Advanced autonomous AI persona powered by **Google Gemini**. Maintains episodic 
 ![Python](https://img.shields.io/badge/Python_3.10+-0a1628?style=flat-square&logo=python&logoColor=22d3ee)
 ![Gemini](https://img.shields.io/badge/Gemini-0a1628?style=flat-square&logo=google&logoColor=22d3ee)
 
-[**↗ Source**](https://github.com/amanamarjit243222/discord-ai)
+[**↗ Source**](https://github.com/Aman-Amarjit/discord-ai)
 
 </td>
 </tr>
@@ -179,7 +180,7 @@ Advanced autonomous AI persona powered by **Google Gemini**. Maintains episodic 
 <td width="8%" align="center" valign="top"><br/><sub><b>04</b></sub></td>
 <td width="54%" valign="top">
 
-**[BIOMETRIC ENGINE](https://github.com/amanamarjit243222/Face-recognition)** &nbsp;🛡️
+**[BIOMETRIC ENGINE](https://github.com/Aman-Amarjit/Face-recognition)** &nbsp;🛡️
 **Privacy-First Client-Side Face Recognition System**
 
 Enterprise-grade access control running **100% in-browser** via TensorFlow.js — zero biometric data leaves the device. Designed for zero-trust environments and GDPR compliance.
@@ -190,9 +191,9 @@ Enterprise-grade access control running **100% in-browser** via TensorFlow.js �
 <td width="38%" valign="top" align="right">
 
 ![TF.js](https://img.shields.io/badge/TensorFlow.js-0a1628?style=flat-square&logo=tensorflow&logoColor=22d3ee)
-![CI](https://github.com/amanamarjit243222/Face-recognition/actions/workflows/js-tests.yml/badge.svg)
+![CI](https://github.com/Aman-Amarjit/Face-recognition/actions/workflows/js-tests.yml/badge.svg)
 
-[**↗ Live Demo**](https://identity-verification-system.netlify.app/) &nbsp;·&nbsp; [**↗ Source**](https://github.com/amanamarjit243222/Face-recognition)
+[**↗ Live Demo**](https://identity-verification-system.netlify.app/) &nbsp;·&nbsp; [**↗ Source**](https://github.com/Aman-Amarjit/Face-recognition)
 
 </td>
 </tr>
@@ -203,7 +204,7 @@ Enterprise-grade access control running **100% in-browser** via TensorFlow.js �
 <td width="8%" align="center" valign="top"><br/><sub><b>05</b></sub></td>
 <td width="54%" valign="top">
 
-**[SOLAR SYSTEM — GESTURE UI](https://github.com/amanamarjit243222/solar-system-using-hand-gesture)** &nbsp;🪐
+**[SOLAR SYSTEM — GESTURE UI](https://github.com/Aman-Amarjit/solar-system-using-hand-gesture)** &nbsp;🪐
 **3D Astrophysical Simulation with Hand Gesture Control**
 
 Full WebGL solar system simulation controlled entirely via **real-time hand gesture recognition**. No controllers. No clicks. Pure HCI — MediaPipe hand tracking fused with Three.js orbital physics.
@@ -214,9 +215,9 @@ Full WebGL solar system simulation controlled entirely via **real-time hand gest
 <td width="38%" valign="top" align="right">
 
 ![Three.js](https://img.shields.io/badge/Three.js-0a1628?style=flat-square&logo=threedotjs&logoColor=22d3ee)
-![CI](https://github.com/amanamarjit243222/solar-system-using-hand-gesture/actions/workflows/js-tests.yml/badge.svg)
+![CI](https://github.com/Aman-Amarjit/solar-system-using-hand-gesture/actions/workflows/js-tests.yml/badge.svg)
 
-[**↗ Live Demo**](https://solarsystemwithhandgestures.netlify.app/) &nbsp;·&nbsp; [**↗ Source**](https://github.com/amanamarjit243222/solar-system-using-hand-gesture)
+[**↗ Live Demo**](https://solarsystemwithhandgestures.netlify.app/) &nbsp;·&nbsp; [**↗ Source**](https://github.com/Aman-Amarjit/solar-system-using-hand-gesture)
 
 </td>
 </tr>
@@ -281,17 +282,17 @@ Full WebGL solar system simulation controlled entirely via **real-time hand gest
 
 <div align="center">
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=amanamarjit243222&show_icons=true&hide_border=true&bg_color=060f1c&title_color=67e8f9&icon_color=06b6d4&text_color=a5f3fc&ring_color=0e7490&include_all_commits=true&count_private=true&custom_title=Output+Metrics"/>
+<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Aman-Amarjit&show_icons=true&hide_border=true&bg_color=060f1c&title_color=67e8f9&icon_color=06b6d4&text_color=a5f3fc&ring_color=0e7490&include_all_commits=true&count_private=true&custom_title=Output+Metrics"/>
 &nbsp;&nbsp;
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amanamarjit243222&layout=compact&hide_border=true&bg_color=060f1c&title_color=67e8f9&text_color=a5f3fc&custom_title=Primary+Languages"/>
+<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aman-Amarjit&layout=compact&hide_border=true&bg_color=060f1c&title_color=67e8f9&text_color=a5f3fc&custom_title=Primary+Languages"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=amanamarjit243222&theme=transparent&hide_border=true&background=060f1c&ring=06b6d4&fire=22d3ee&currStreakLabel=67e8f9&sideLabels=67e8f9&dates=3d6e7e&currStreakNum=e0f7ff&sideNums=e0f7ff&stroke=0e7490"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Aman-Amarjit&theme=transparent&hide_border=true&background=060f1c&ring=06b6d4&fire=22d3ee&currStreakLabel=67e8f9&sideLabels=67e8f9&dates=3d6e7e&currStreakNum=e0f7ff&sideNums=e0f7ff&stroke=0e7490"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=amanamarjit243222&bg_color=060f1c&color=67e8f9&line=0e7490&point=22d3ee&area=true&area_color=0d2137&hide_border=true&custom_title=Contribution+Topology" width="96%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aman-Amarjit&bg_color=060f1c&color=67e8f9&line=0e7490&point=22d3ee&area=true&area_color=0d2137&hide_border=true&custom_title=Contribution+Topology" width="96%"/>
 
 </div>
 
