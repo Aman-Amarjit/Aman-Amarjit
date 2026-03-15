@@ -1,4 +1,3 @@
-
 <!-- ============================================================
      AMAN AMARJIT — GitHub Profile README
      Systems Architect · AI Engineer · Security Researcher
@@ -38,7 +37,7 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1628,100:0d2137&height=38&text=%E2%97%88+01+%C2%B7+IDENTITY+MATRIX&fontSize=14&fontColor=67e8f9&fontAlignY=65&fontAlign=5&textBg=false&desc=&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1628,100:0d2137&height=38&text=%E2%97%88+01+%C2%B7+IDENTITY+MATRIX&fontSize=14&fontColor=67e8f9&fontAlignY=65&fontAlign=50&textBg=false&desc=&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -99,7 +98,7 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1628,100:0d2137&height=38&text=%E2%97%88+02+%C2%B7+FLAGSHIP+SYSTEMS&fontSize=14&fontColor=67e8f9&fontAlignY=65&fontAlign=5&textBg=false&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1628,100:0d2137&height=38&text=%E2%97%88+02+%C2%B7+FLAGSHIP+SYSTEMS&fontSize=14&fontColor=67e8f9&fontAlignY=65&fontAlign=50&textBg=false&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -228,14 +227,207 @@ Full WebGL solar system simulation controlled entirely via **real-time hand gest
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- ════════════════════════════════════════════════════
-     SECTION 03 · TECHNOLOGY MATRIX
+     SECTION 03 · TECHNOLOGY MATRIX  (ORBITAL ANIMATION)
      ════════════════════════════════════════════════════ -->
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1628,100:0d2137&height=38&text=%E2%97%88+03+%C2%B7+TECHNOLOGY+MATRIX&fontSize=14&fontColor=67e8f9&fontAlignY=65&fontAlign=5&textBg=false&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1628,100:0d2137&height=38&text=%E2%97%88+03+%C2%B7+TECHNOLOGY+MATRIX&fontSize=14&fontColor=67e8f9&fontAlignY=65&fontAlign=50&textBg=false&animation=fadeIn" width="100%"/>
 
 <br/>
+
+<div align="center">
+
+<!-- ░░░ ORBITAL TECH STACK ANIMATION ░░░ -->
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .orbit-outer { animation: spin-cw 18s linear infinite; transform-origin: 250px 250px; }
+      .orbit-mid   { animation: spin-ccw 12s linear infinite; transform-origin: 250px 250px; }
+      .orbit-inner { animation: spin-cw 8s linear infinite; transform-origin: 250px 250px; }
+
+      .counter-outer { animation: spin-ccw 18s linear infinite; transform-origin: inherit; }
+      .counter-mid   { animation: spin-cw 12s linear infinite; transform-origin: inherit; }
+      .counter-inner { animation: spin-ccw 8s linear infinite; transform-origin: inherit; }
+
+      @keyframes spin-cw  { from { transform: rotate(0deg);   } to { transform: rotate(360deg);  } }
+      @keyframes spin-ccw { from { transform: rotate(0deg);   } to { transform: rotate(-360deg); } }
+
+      .ring { fill: none; stroke-dasharray: 6 4; opacity: 0.25; }
+      .dot  { r: 22; }
+      .lbl  { font-family: 'JetBrains Mono', monospace; font-size: 8px; font-weight: 700;
+               fill: #67e8f9; text-anchor: middle; dominant-baseline: middle; }
+      .icon-bg { opacity: 0.92; }
+    </style>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="250" cy="250" r="240" fill="#060f1c" stroke="#0e7490" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Orbit rings -->
+  <circle cx="250" cy="250" r="170" class="ring" stroke="#22d3ee" stroke-width="1"/>
+  <circle cx="250" cy="250" r="115" class="ring" stroke="#06b6d4" stroke-width="1"/>
+  <circle cx="250" cy="250" r="60"  class="ring" stroke="#0e7490" stroke-width="1"/>
+
+  <!-- Center node -->
+  <circle cx="250" cy="250" r="38" fill="#0a1628" stroke="#22d3ee" stroke-width="2" filter="url(#glow)"/>
+  <text x="250" y="246" class="lbl" font-size="9" fill="#22d3ee">AAJ</text>
+  <text x="250" y="257" class="lbl" font-size="6" fill="#67e8f9">SYSTEMS</text>
+
+  <!-- ░ OUTER ORBIT — radius 170 ░ -->
+  <!-- 8 items evenly at 45° apart: 270°, 315°, 0°, 45°, 90°, 135°, 180°, 225° -->
+  <g class="orbit-outer">
+    <!-- Python  @ 270° → (250, 80) -->
+    <g transform="translate(250,80)">
+      <g class="counter-outer">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#60a5fa">PY</text>
+      </g>
+    </g>
+    <!-- FastAPI @ 315° → (370, 130) -->
+    <g transform="translate(370,130)">
+      <g class="counter-outer">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#34d399">API</text>
+      </g>
+    </g>
+    <!-- Node.js @ 0° → (420, 250) -->
+    <g transform="translate(420,250)">
+      <g class="counter-outer">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#86efac">NODE</text>
+      </g>
+    </g>
+    <!-- Three.js @ 45° → (370, 370) -->
+    <g transform="translate(370,370)">
+      <g class="counter-outer">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#1c1c2e" stroke="#a855f7" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#d8b4fe">3JS</text>
+      </g>
+    </g>
+    <!-- Docker @ 90° → (250, 420) -->
+    <g transform="translate(250,420)">
+      <g class="counter-outer">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#0c1a4e" stroke="#3b82f6" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#93c5fd">🐳</text>
+      </g>
+    </g>
+    <!-- WebGL @ 135° → (130, 370) -->
+    <g transform="translate(130,370)">
+      <g class="counter-outer">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#3b1a00" stroke="#f97316" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#fed7aa">WGL</text>
+      </g>
+    </g>
+    <!-- Flask @ 180° → (80, 250) -->
+    <g transform="translate(80,250)">
+      <g class="counter-outer">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#1a1a1a" stroke="#9ca3af" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#e5e7eb">FLK</text>
+      </g>
+    </g>
+    <!-- NLP @ 225° → (130, 130) -->
+    <g transform="translate(130,130)">
+      <g class="counter-outer">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#2d1b69" stroke="#8b5cf6" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#c4b5fd">NLP</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ░ MID ORBIT — radius 115 ░ -->
+  <!-- 6 items at 60° apart: 270°, 330°, 30°, 90°, 150°, 210° -->
+  <g class="orbit-mid">
+    <!-- TensorFlow.js @ 270° → (250, 135) -->
+    <g transform="translate(250,135)">
+      <g class="counter-mid">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#3b1a00" stroke="#f97316" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#fdba74">TF</text>
+      </g>
+    </g>
+    <!-- MediaPipe @ 330° → (350, 192) -->
+    <g transform="translate(350,192)">
+      <g class="counter-mid">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#1a2e1a" stroke="#4ade80" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#86efac">MP</text>
+      </g>
+    </g>
+    <!-- Gemini @ 30° → (350, 308) -->
+    <g transform="translate(350,308)">
+      <g class="counter-mid">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#1a0a2e" stroke="#c084fc" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#e9d5ff">GEM</text>
+      </g>
+    </g>
+    <!-- JWT @ 90° → (250, 365) -->
+    <g transform="translate(250,365)">
+      <g class="counter-mid">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#1a0a0a" stroke="#f87171" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#fca5a5">JWT</text>
+      </g>
+    </g>
+    <!-- IndexedDB @ 150° → (150, 308) -->
+    <g transform="translate(150,308)">
+      <g class="counter-mid">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#0a1a2e" stroke="#38bdf8" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#7dd3fc">IDB</text>
+      </g>
+    </g>
+    <!-- GH Actions @ 210° → (150, 192) -->
+    <g transform="translate(150,192)">
+      <g class="counter-mid">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#0d1117" stroke="#58a6ff" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#79c0ff">GHA</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ░ INNER ORBIT — radius 60 ░ -->
+  <!-- 4 items at 90° apart -->
+  <g class="orbit-inner">
+    <!-- JS @ 270° → (250, 190) -->
+    <g transform="translate(250,190)">
+      <g class="counter-inner">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#2d2a00" stroke="#facc15" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#fef08a">JS</text>
+      </g>
+    </g>
+    <!-- HTML5 @ 0° → (310, 250) -->
+    <g transform="translate(310,250)">
+      <g class="counter-inner">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#3b0a00" stroke="#f97316" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#fed7aa">HTML</text>
+      </g>
+    </g>
+    <!-- Netlify @ 90° → (250, 310) -->
+    <g transform="translate(250,310)">
+      <g class="counter-inner">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#002e2e" stroke="#2dd4bf" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#99f6e4">NTL</text>
+      </g>
+    </g>
+    <!-- CSS3 @ 180° → (190, 250) -->
+    <g transform="translate(190,250)">
+      <g class="counter-inner">
+        <circle class="dot icon-bg" cx="0" cy="0" fill="#00123b" stroke="#60a5fa" stroke-width="1.5"/>
+        <text x="0" y="0" class="lbl" fill="#bfdbfe">CSS</text>
+      </g>
+    </g>
+  </g>
+
+</svg>
+
+</div>
+
+<br/>
+
+<div align="center">
 
 **Backend & Systems**
 
@@ -262,82 +454,4 @@ Full WebGL solar system simulation controlled entirely via **real-time hand gest
 
 ![JWT](https://img.shields.io/badge/JWT-0a1628?style=for-the-badge&logo=jsonwebtokens&logoColor=67e8f9)
 ![Zero Trust](https://img.shields.io/badge/Zero--Trust-0a1628?style=for-the-badge&logoColor=67e8f9)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0a1628?style=for-the-badge&logo=githubactions&logoColor=67e8f9)
-![Netlify](https://img.shields.io/badge/Netlify-0a1628?style=for-the-badge&logo=netlify&logoColor=67e8f9)
-![IndexedDB](https://img.shields.io/badge/IndexedDB-0a1628?style=for-the-badge&logo=databricks&logoColor=67e8f9)
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<!-- ════════════════════════════════════════════════════
-     SECTION 04 · ENGINEERING METRICS
-     ════════════════════════════════════════════════════ -->
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1628,100:0d2137&height=38&text=%E2%97%88+04+%C2%B7+ENGINEERING+METRICS&fontSize=14&fontColor=67e8f9&fontAlignY=65&fontAlign=5&textBg=false&animation=fadeIn" width="100%"/>
-
-<br/>
-
-<div align="center">
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Aman-Amarjit&show_icons=true&hide_border=true&bg_color=060f1c&title_color=67e8f9&icon_color=06b6d4&text_color=a5f3fc&ring_color=0e7490&include_all_commits=true&count_private=true&custom_title=Output+Metrics"/>
-&nbsp;&nbsp;
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aman-Amarjit&layout=compact&hide_border=true&bg_color=060f1c&title_color=67e8f9&text_color=a5f3fc&custom_title=Primary+Languages"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Aman-Amarjit&theme=transparent&hide_border=true&background=060f1c&ring=06b6d4&fire=22d3ee&currStreakLabel=67e8f9&sideLabels=67e8f9&dates=3d6e7e&currStreakNum=e0f7ff&sideNums=e0f7ff&stroke=0e7490"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aman-Amarjit&bg_color=060f1c&color=67e8f9&line=0e7490&point=22d3ee&area=true&area_color=0d2137&hide_border=true&custom_title=Contribution+Topology" width="96%"/>
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<!-- ════════════════════════════════════════════════════
-     SECTION 05 · ENGINEERING DOCTRINE
-     ════════════════════════════════════════════════════ -->
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1628,100:0d2137&height=38&text=%E2%97%88+05+%C2%B7+ENGINEERING+DOCTRINE&fontSize=14&fontColor=67e8f9&fontAlignY=65&fontAlign=5&textBg=false&animation=fadeIn" width="100%"/>
-
-<br/>
-
-```
-  ╔══════════════════════════════════════════════════════════════════╗
-  ║               T H E   A A J   M A N I F E S T O                 ║
-  ╠══════════════════════════════════════════════════════════════════╣
-  ║                                                                  ║
-  ║  I ····  Security is not a feature — it is the foundation.      ║
-  ║  II ···  Every abstraction must earn its complexity.            ║
-  ║  III ··  Systems should think. Interfaces should transcend.     ║
-  ║  IV ···  Ship with intent. Refactor with courage.               ║
-  ║  V ····  The best code is the code that doesn't need explaining.║
-  ║                                                                  ║
-  ╠══════════════════════════════════════════════════════════════════╣
-  ║                          — Aman Amarjit  ·  AAJ  ·  2025 —      ║
-  ╚══════════════════════════════════════════════════════════════════╝
-```
-
-<br/>
-
-<div align="center">
-
-`Security-First` &nbsp;&nbsp;·&nbsp;&nbsp; `AI-Native` &nbsp;&nbsp;·&nbsp;&nbsp; `Performance-Obsessed` &nbsp;&nbsp;·&nbsp;&nbsp; `Zero Compromise`
-
-</div>
-
-<br/>
-
-<!-- ════════════════════════════════════════════════════
-     FOOTER
-     ════════════════════════════════════════════════════ -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:004d6b,40:001824,100:000000&height=120&section=footer&text=Built+with+precision.+Deployed+with+intent.&fontSize=14&fontColor=0e7490&fontAlignY=62&animation=fadeIn" width="100%"/>
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0a1628?style=for-the-badge
