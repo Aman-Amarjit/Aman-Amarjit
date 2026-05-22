@@ -72,81 +72,20 @@
 
 <br/><br/>
 
-<table>
-<tr>
-<td align="center">
+**AI · ML · Computer Vision**<br>
+<img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch&theme=dark" /><br><br>
 
-## ⚡ AI • ML • VISION
+**Backend · Systems · Infrastructure**<br>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,docker,nginx,githubactions,linux&theme=dark" /><br><br>
 
-<a href="https://www.python.org">
-  <img src="https://skillicons.dev/icons?i=python&theme=dark" width="70"/>
-</a>
-<a href="https://www.tensorflow.org/">
-  <img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" width="70"/>
-</a>
-<a href="https://pytorch.org/">
-  <img src="https://skillicons.dev/icons?i=pytorch&theme=dark" width="70"/>
-</a>
+**Frontend · Interfaces**<br>
+<img src="https://skillicons.dev/icons?i=react,ts,js,threejs,vite,html,css&theme=dark" /><br><br>
 
-</td>
-</tr>
-</table>
+**Data · Storage · Cloud**<br>
+<img src="https://skillicons.dev/icons?i=firebase,postgres,mongodb,supabase,vercel&theme=dark" /><br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:001018,50:06b6d4,100:001018&height=2&section=header" width="80%"/>
-
-<table>
-<tr>
-<td align="center">
-
-## 🛡 SYSTEMS • BACKEND • INFRA
-
-<a href="https://fastapi.tiangolo.com/">
-  <img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="70"/>
-</a>
-<a href="https://nodejs.org/">
-  <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="70"/>
-</a>
-<a href="https://www.docker.com/">
-  <img src="https://skillicons.dev/icons?i=docker&theme=dark" width="70"/>
-</a>
-<a href="https://nginx.org/">
-  <img src="https://skillicons.dev/icons?i=nginx&theme=dark" width="70"/>
-</a>
-<a href="https://github.com/features/actions">
-  <img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="70"/>
-</a>
-<a href="https://www.linux.org/">
-  <img src="https://skillicons.dev/icons?i=linux&theme=dark" width="70"/>
-</a>
-
-</td>
-</tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:001018,50:06b6d4,100:001018&height=2&section=header" width="80%"/>
-
-<table>
-<tr>
-<td align="center">
-
-## 🌐 FRONTEND • INTERFACES
-
-<a href="https://react.dev/">
-  <img src="https://skillicons.dev/icons?i=react&theme=dark" width="70"/>
-</a>
-<a href="https://www.typescriptlang.org/">
-  <img src="https://skillicons.dev/icons?i=ts&theme=dark" width="70"/>
-</a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-  <img src="https://skillicons.dev/icons?i=js&theme=dark" width="70"/>
-</a>
-<a href="https://threejs.org/">
-  <img src="https://skillicons.dev/icons?i=threejs&theme=dark" width="70"/>
-</a>
-
-</td>
-</tr>
-</table>
+**Tools & Platforms**<br>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,kotlin,androidstudio&theme=dark" /><br><br>
 
 </div>
 
