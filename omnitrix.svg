@@ -17,19 +17,20 @@
       <stop offset="100%" stop-color="#0891b2" />
     </radialGradient>
 
-    <!-- Fade out gradient for the bottom half of the dial -->
+    <!-- Fade out gradient to ONLY reveal exactly 5 tech stacks at the very top -->
     <linearGradient id="fade-grad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="white" />
-      <stop offset="45%" stop-color="white" />
-      <stop offset="55%" stop-color="black" />
+      <stop offset="0%" stop-color="black" />
+      <stop offset="6%" stop-color="black" />
+      <stop offset="10%" stop-color="white" />
+      <stop offset="25%" stop-color="white" />
+      <stop offset="31%" stop-color="black" />
       <stop offset="100%" stop-color="black" />
     </linearGradient>
-    <mask id="top-half-mask">
+    <mask id="top-five-mask">
       <rect x="0" y="0" width="1000" height="1000" fill="url(#fade-grad)" />
     </mask>
   </defs>
 
-  <!-- The Animated Hologram Dial -->
   <!-- Ring Group -->
   <g>
     <animateTransform attributeName="transform" type="rotate" from="0 500 500" to="360 500 500" dur="40s" repeatCount="indefinite"/>
@@ -47,8 +48,8 @@
     <circle cx="500" cy="500" r="310" fill="none" stroke="#67e8f9" stroke-width="4" filter="url(#glow)"/>
   </g>
 
-  <!-- Icons Group (Masked to top half only, but spinning identically) -->
-  <g mask="url(#top-half-mask)">
+  <!-- Icons Group (Masked to show exactly 5 stacks at a time) -->
+  <g mask="url(#top-five-mask)">
     <g>
       <animateTransform attributeName="transform" type="rotate" from="0 500 500" to="360 500 500" dur="40s" repeatCount="indefinite"/>
       <g transform="translate(848.0, 468.0) rotate(90.0 32 32)">
@@ -218,7 +219,6 @@
   </g>
 
   <!-- Omnitrix Center Core (Cyan Hourglass) -->
-  <!-- We want it to be stationary while the dial rotates around it. -->
   <circle cx="500" cy="500" r="280" fill="#000000" stroke="#164e63" stroke-width="15" opacity="0.8" />
   
   <polygon points="320,320 680,320 500,500" fill="#22d3ee" filter="url(#heavy-glow)"/>
