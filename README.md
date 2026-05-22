@@ -72,20 +72,9 @@
 
 <br/><br/>
 
-**AI · ML · Computer Vision**<br>
-<img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch&theme=dark" /><br><br>
-
-**Backend · Systems · Infrastructure**<br>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,docker,nginx,githubactions,linux&theme=dark" /><br><br>
-
-**Frontend · Interfaces**<br>
-<img src="https://skillicons.dev/icons?i=react,ts,js,threejs,vite,html,css&theme=dark" /><br><br>
-
-**Data · Storage · Cloud**<br>
-<img src="https://skillicons.dev/icons?i=firebase,postgres,mongodb,supabase,vercel&theme=dark" /><br><br>
-
-**Tools & Platforms**<br>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,kotlin,androidstudio&theme=dark" /><br><br>
+<!-- THE OMNITRIX UI -->
+<img src="./omnitrix.svg" width="500" alt="Omnitrix Tech Stack" />
+<br><br>
 
 </div>
 
