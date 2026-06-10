@@ -106,7 +106,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aman-Amarjit&theme=transparent&hide_border=true&background=060f1c&ring=06b6d4&fire=22d3ee&currStreakLabel=67e8f9&sideLabels=67e8f9&dates=3d6e7e&currStreakNum=e0f7ff&sideNums=e0f7ff&stroke=0e7490" alt="GitHub Streak" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=Aman-Amarjit&theme=transparent&hide_border=true&background=060f1c&ring=06b6d4&fire=22d3ee&currStreakLabel=67e8f9&sideLabels=67e8f9&dates=3d6e7e&currStreakNum=e0f7ff&sideNums=e0f7ff&stroke=0e7490" alt="GitHub Streak" width="49%" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aman-Amarjit&bg_color=060f1c&color=67e8f9&line=0e7490&point=22d3ee&area=true&area_color=0d2137&hide_border=true&custom_title=Contribution+Topology" alt="Contribution Graph" width="49%" />
 </div>
 
