@@ -27,13 +27,13 @@
     <!-- 30s rotation to sync perfectly with our discrete swap intervals -->
     <animateTransform attributeName="transform" type="rotate" from="0 500 500" to="360 500 500" dur="10s" repeatCount="indefinite"/>
     
-    <circle cx="500" cy="500" r="380" fill="none" stroke="#06b6d4" stroke-width="120" opacity="0.15" filter="url(#heavy-glow)"/>
-    <circle cx="500" cy="500" r="450" fill="none" stroke="#67e8f9" stroke-width="4" filter="url(#glow)"/>
+    <circle cx="500" cy="500" r="380" fill="none" stroke="#22c55e" stroke-width="120" opacity="0.15" filter="url(#heavy-glow)"/>
+    <circle cx="500" cy="500" r="450" fill="none" stroke="#4ade80" stroke-width="4" filter="url(#glow)"/>
     
     <!-- 10 segments matching the 10 slots. Circumference 2387.61. Dash length ~230.76, gap 8. Offset to perfectly center at start angles -->
-    <circle cx="500" cy="500" r="380" fill="none" stroke="#06b6d4" stroke-width="100" stroke-dasharray="230.76 8" stroke-dashoffset="115.38" opacity="0.85" filter="url(#glow)"/>
+    <circle cx="500" cy="500" r="380" fill="none" stroke="#22c55e" stroke-width="100" stroke-dasharray="230.76 8" stroke-dashoffset="115.38" opacity="0.85" filter="url(#glow)"/>
     
-    <circle cx="500" cy="500" r="310" fill="none" stroke="#67e8f9" stroke-width="4" filter="url(#glow)"/>
+    <circle cx="500" cy="500" r="310" fill="none" stroke="#4ade80" stroke-width="4" filter="url(#glow)"/>
   </g>
 
   <!-- Icons Group (Masked to show the upper part only) -->
@@ -282,52 +282,55 @@
   <!-- Concentric Tech HUD Rings (Rotating Counter-Clockwise) -->
   <g>
     <animateTransform attributeName="transform" type="rotate" from="360 500 500" to="0 500 500" dur="20s" repeatCount="indefinite"/>
-    <circle cx="500" cy="500" r="465" fill="none" stroke="#06b6d4" stroke-width="2" stroke-dasharray="12 36 60 36" opacity="0.4" />
-    <circle cx="500" cy="500" r="475" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="6 18" opacity="0.3" />
-    <circle cx="500" cy="500" r="455" fill="none" stroke="#0ea5e9" stroke-width="1" stroke-dasharray="2 10" opacity="0.5" />
+    <circle cx="500" cy="500" r="465" fill="none" stroke="#22c55e" stroke-width="2" stroke-dasharray="12 36 60 36" opacity="0.4" />
+    <circle cx="500" cy="500" r="475" fill="none" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="6 18" opacity="0.3" />
+    <circle cx="500" cy="500" r="455" fill="none" stroke="#10b981" stroke-width="1" stroke-dasharray="2 10" opacity="0.5" />
   </g>
 
   <!-- Technical Radar Sweeper & Crosshairs (Rotating Clockwise) -->
   <g>
     <animateTransform attributeName="transform" type="rotate" from="0 500 500" to="360 500 500" dur="8s" repeatCount="indefinite"/>
     <!-- Sweeper line -->
-    <line x1="500" y1="500" x2="500" y2="100" stroke="#22d3ee" stroke-width="2.5" opacity="0.6" filter="url(#glow)">
+    <line x1="500" y1="500" x2="500" y2="100" stroke="#22c55e" stroke-width="2.5" opacity="0.6" filter="url(#glow)">
       <animate attributeName="opacity" values="0.2;0.8;0.2" dur="8s" repeatCount="indefinite" />
     </line>
     <!-- Scope notches -->
-    <circle cx="500" cy="500" r="295" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="5 45" opacity="0.6" filter="url(#glow)" />
+    <circle cx="500" cy="500" r="295" fill="none" stroke="#22c55e" stroke-width="2" stroke-dasharray="5 45" opacity="0.6" filter="url(#glow)" />
   </g>
 
   <!-- Omnitrix Center Core Bezel (Stationary) -->
-  <circle cx="500" cy="500" r="280" fill="#000000" stroke="#164e63" stroke-width="15" opacity="0.85" />
+  <circle cx="500" cy="500" r="280" fill="#000000" stroke="#14532d" stroke-width="15" opacity="0.85" />
   
-  <!-- Pulsing Central Hourglass Core -->
-  <g>
-    <animateTransform attributeName="transform" type="scale" values="1;1.03;1" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite" transform-origin="500 500"/>
-    
-    <!-- Outer Glow Hourglass -->
-    <polygon points="320,320 680,320 500,500" fill="#22d3ee" filter="url(#heavy-glow)">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite" />
-    </polygon>
-    <polygon points="320,680 680,680 500,500" fill="#22d3ee" filter="url(#heavy-glow)">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite" />
-    </polygon>
-    
-    <!-- Inner Main Hourglass -->
-    <polygon points="325,325 675,325 500,500" fill="#22d3ee" />
-    <polygon points="325,675 675,675 500,500" fill="#22d3ee" />
-    
-    <!-- Center Core Highlight Hourglass -->
-    <polygon points="335,335 665,335 500,500" fill="#67e8f9" />
-    <polygon points="335,665 665,665 500,500" fill="#67e8f9" />
+  <!-- Pulsing Central Hourglass Core (Fixed Scaling relative to Center) -->
+  <g transform="translate(500, 500)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1;1.03;1" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite" />
+      <g transform="translate(-500, -500)">
+        <!-- Outer Glow Hourglass -->
+        <polygon points="320,320 680,320 500,500" fill="#22c55e" filter="url(#heavy-glow)">
+          <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite" />
+        </polygon>
+        <polygon points="320,680 680,680 500,500" fill="#22c55e" filter="url(#heavy-glow)">
+          <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite" />
+        </polygon>
+        
+        <!-- Inner Main Hourglass -->
+        <polygon points="325,325 675,325 500,500" fill="#22c55e" />
+        <polygon points="325,675 675,675 500,500" fill="#22c55e" />
+        
+        <!-- Center Core Highlight Hourglass -->
+        <polygon points="335,335 665,335 500,500" fill="#86efac" />
+        <polygon points="335,665 665,665 500,500" fill="#86efac" />
+      </g>
+    </g>
   </g>
 
   <!-- Stationary HUD Text Labels & Status Indicators inside Core -->
   <g opacity="0.8">
-    <text x="500" y="475" fill="#e0f7ff" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="6" text-anchor="middle" filter="url(#glow)">
+    <text x="500" y="475" fill="#f0fdf4" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="6" text-anchor="middle" filter="url(#glow)">
       SYS_STATUS: ACTIVE
     </text>
-    <text x="500" y="535" fill="#67e8f9" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="4" text-anchor="middle">
+    <text x="500" y="535" fill="#4ade80" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="4" text-anchor="middle">
       COGNITIVE_SYNC: 100%
     </text>
   </g>
@@ -338,7 +341,7 @@
   <path d="M 330 300 A 180 180 0 0 1 670 300" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.2" stroke-linecap="round" />
 
   <!-- Outer Bezel Circuit Rivets -->
-  <g fill="#0ea5e9" opacity="0.7">
+  <g fill="#22c55e" opacity="0.7">
     <circle cx="500" cy="18" r="4" filter="url(#glow)" />
     <circle cx="500" cy="982" r="4" filter="url(#glow)" />
     <circle cx="18" cy="500" r="4" filter="url(#glow)" />

@@ -74,13 +74,13 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:020617,40:06263a,100:0ea5e9&height=120&section=header&text=OMNITRIX%20CORE&fontSize=34&fontColor=67e8f9&animation=fadeIn&fontAlignY=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:022c22,40:064e3b,100:22c55e&height=120&section=header&text=OMNITRIX%20CORE&fontSize=34&fontColor=4ade80&animation=fadeIn&fontAlignY=50" width="100%"/>
 
 <br/>
 
 # 🌀 TECH MATRIX
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=2600&pause=1000&color=67E8F9&center=true&vCenter=true&width=700&lines=Initializing+Cyan+Omnitrix+Core...;Loading+AI+Modules...;Mounting+Systems+Infrastructure...;Synchronizing+Frontend+Interfaces...;Connecting+Cloud+Grid..."/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&duration=2600&pause=1000&color=4ADE80&center=true&vCenter=true&width=700&lines=Initializing+Omnitrix+Core...;Loading+AI+Modules...;Mounting+Systems+Infrastructure...;Synchronizing+Frontend+Interfaces...;Connecting+Cloud+Grid..."/>
 
 <br/><br/>
 
@@ -106,7 +106,7 @@
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Aman-Amarjit&theme=transparent&hide_border=true&background=060f1c&ring=06b6d4&fire=22d3ee&currStreakLabel=67e8f9&sideLabels=67e8f9&dates=3d6e7e&currStreakNum=e0f7ff&sideNums=e0f7ff&stroke=0e7490" alt="GitHub Streak" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=Aman-Amarjit&theme=transparent&hide_border=true&background=060f1c&ring=06b6d4&fire=22d3ee&currStreakLabel=67e8f9&sideLabels=67e8f9&dates=3d6e7e&currStreakNum=e0f7ff&sideNums=e0f7ff&stroke=0e7490&v=1.0.2" alt="GitHub Streak" width="49%" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aman-Amarjit&bg_color=060f1c&color=67e8f9&line=0e7490&point=22d3ee&area=true&area_color=0d2137&hide_border=true&custom_title=Contribution+Topology" alt="Contribution Graph" width="49%" />
 </div>
 
