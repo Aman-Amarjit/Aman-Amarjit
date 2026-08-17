@@ -79,17 +79,17 @@
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
 <td width="50%" align="center" valign="top">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Aman-Amarjit&show_icons=true&theme=tokyonight&border_color=1d4ed8&title_color=1d4ed8&text_color=c9d1d9&icon_color=a855f7&bg_color=0d1117&hide_border=false&rank_icon=github" width="98%" alt="GitHub Stats"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Aman-Amarjit&show_icons=true&theme=tokyonight&border_color=1d4ed8&title_color=1d4ed8&text_color=c9d1d9&icon_color=a855f7&bg_color=0d1117&hide_border=false&rank_icon=github" width="98%" alt="GitHub Stats"/>
 </td>
 <td width="50%" align="center" valign="top">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Aman-Amarjit&layout=compact&theme=tokyonight&border_color=a855f7&title_color=a855f7&text_color=c9d1d9&bg_color=0d1117" width="98%" alt="Top Languages"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Aman-Amarjit&layout=compact&theme=tokyonight&border_color=a855f7&title_color=a855f7&text_color=c9d1d9&bg_color=0d1117" width="98%" alt="Top Languages"/>
 </td>
 </tr>
 </table>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=Aman-Amarjit&theme=tokyonight&border=1d4ed8&background=0d1117&fire=ff6e6e&ring=1d4ed8&currStreakLabel=1d4ed8&sideLabels=a855f7&dates=8b949e" width="100%" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Aman-Amarjit&theme=tokyonight&border=1d4ed8&background=0d1117&fire=ff6e6e&ring=1d4ed8&currStreakLabel=1d4ed8&sideLabels=a855f7&dates=8b949e" width="100%" alt="GitHub Streak"/>
 
 </div>
 
