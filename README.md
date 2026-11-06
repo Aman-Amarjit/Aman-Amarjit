@@ -20,26 +20,17 @@
 
 <img src="assets/connect.svg?v=2" alt="Connect" width="800"/>
 
----
 
-## 🚀 Featured Projects
-
-| Project | Description | Language | Stars |
-|---------|-------------|----------|-------|
-| [RULE-THE-WORLD](https://github.com/Aman-Amarjit/RULE-THE-WORLD) | Geopolitical &amp; macroeconomic simulator | JavaScript | ★★★ |
-| [crypto-bot](https://github.com/Aman-Amarjit/crypto-bot) | Threads AI-powered crypto content generation | Python | ★★★ |
-| [conformalized-brain-tumor-agent](https://github.com/Aman-Amarjit/conformalized-brain-tumor-agent) | Statistically guaranteed MRI prediction sets | TypeScript | ★★ |
-| [discord-ai](https://github.com/Aman-Amarjit/discord-ai) | Autonomous AI agent with mood-state engine | Python | ★★ |
-| [solar-system-using-hand-gesture](https://github.com/Aman-Amarjit/solar-system-using-hand-gesture) | WebGL solar system via MediaPipe hand gestures | HTML | ★★ |
-| [personal-butler](https://github.com/Aman-Amarjit/personal-butler) | AI Desktop Agent — episodic memory &amp; local RAG | Python | ★★ |
+<img src="assets/projects.svg?v=2" alt="Featured Projects" width="800"/>
 
 ---
+
 
 ## 🌐 Connect (Clickable)
 
 <p align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Aman-Amarjit-247bff?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Aman-Amarjit)
+[![GitHub](https://img.shields.io/badge/GitHub-Aman--Amarjit-247bff?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Aman-Amarjit)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aman--amarjit-0a66c2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/aman-amarjit-991016368/)
 &nbsp;
