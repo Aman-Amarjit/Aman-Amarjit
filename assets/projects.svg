@@ -32,12 +32,12 @@ text,tspan{font-family:'Inter',system-ui,sans-serif;}
   stroke="url(#gbrdpj)" stroke-width="1.5"/>
 
 <defs>
-<clipPath id="cpcard0-pj"><rect x="52" y="86" width="228" height="150" rx="12"/></clipPath>
-<clipPath id="cpcard1-pj"><rect x="298" y="86" width="228" height="150" rx="12"/></clipPath>
-<clipPath id="cpcard2-pj"><rect x="544" y="86" width="228" height="150" rx="12"/></clipPath>
-<clipPath id="cpcard3-pj"><rect x="52" y="254" width="228" height="150" rx="12"/></clipPath>
-<clipPath id="cpcard4-pj"><rect x="298" y="254" width="228" height="150" rx="12"/></clipPath>
-<clipPath id="cpcard5-pj"><rect x="544" y="254" width="228" height="150" rx="12"/></clipPath>
+<clipPath id="cpcard0-pj"><rect x="52" y="82" width="228" height="158" rx="12"/></clipPath>
+<clipPath id="cpcard1-pj"><rect x="298" y="82" width="228" height="158" rx="12"/></clipPath>
+<clipPath id="cpcard2-pj"><rect x="544" y="82" width="228" height="158" rx="12"/></clipPath>
+<clipPath id="cpcard3-pj"><rect x="52" y="256" width="228" height="158" rx="12"/></clipPath>
+<clipPath id="cpcard4-pj"><rect x="298" y="256" width="228" height="158" rx="12"/></clipPath>
+<clipPath id="cpcard5-pj"><rect x="544" y="256" width="228" height="158" rx="12"/></clipPath>
 
 </defs>
 
@@ -46,265 +46,244 @@ text,tspan{font-family:'Inter',system-ui,sans-serif;}
 >03 / FEATURED WORK</text>
 <text x="52" y="64" font-size="24" font-weight="900" fill="#e8eaf0">WHAT I'VE BUILT.</text>
 
-<!-- subtle bg dot grid -->
-<rect x="0" y="0" width="800" height="480" fill="url(#gdots-pj)" fill-opacity="0.4"/>
-
 <!-- cards -->
 
-<!-- card 0: RULE-THE-WORLD -->
+<!-- card 0 -->
 <g opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.20s" dur="0.4s" fill="freeze"/>
 
   <!-- card bg -->
-  <rect x="52" y="86" width="228" height="150" rx="12"
+  <rect x="52" y="82" width="228" height="158" rx="12"
     fill="#0d1526" stroke="#1a2744" stroke-width="1"/>
-  <!-- top accent stripe -->
-  <rect x="52" y="86" width="228" height="4" rx="0"
+  <!-- top accent stripe (clipped to rounded rect) -->
+  <rect x="52" y="82" width="228" height="4" rx="12"
     fill="#f7df1e" clip-path="url(#cpcard0-pj)"/>
-  <!-- top-left radius clip for accent stripe -->
 
-  <!-- language color dot + name -->
-  <circle cx="68" cy="108" r="4.5" fill="#f7df1e"/>
-  <text x="78" y="112" font-size="8.5" font-weight="700"
+  <!-- lang dot + name -->
+  <circle cx="68" cy="104" r="4" fill="#f7df1e"/>
+  <text x="78" y="108" font-size="8" font-weight="700"
     fill="#f7df1e" letter-spacing="0.8">JAVASCRIPT</text>
 
-  <!-- star count -->
-  <text x="266" y="112" font-size="9" fill="#f7c948"
+  <!-- stars -->
+  <text x="268" y="108" font-size="9" fill="#f7c948"
     text-anchor="end">★★★</text>
 
-  <!-- divider -->
-  <line x1="64" y1="120" x2="268" y2="120"
-    stroke="#1a2744" stroke-width="0.8"/>
+  <!-- thin divider -->
+  <line x1="64" y1="116" x2="268" y2="116"
+    stroke="#1a2744" stroke-width="0.7"/>
 
   <!-- project name -->
-  <text x="66" y="140" font-size="12.5" font-weight="800"
+  <text x="66" y="136" font-size="12" font-weight="800"
     fill="#e8eaf0">RULE-THE-WORLD</text>
-  
 
-  <!-- description -->
-  <text x="66" y="158" font-size="10" fill="#8892a4"
-    class="mono">Geopolitical & macroeconomic simulat</text>
-  <text x="66" y="172" font-size="10" fill="#8892a4" class="mono">or</text>
+  <!-- description (safe, two lines max) -->
+  <text x="66" y="154" font-size="9.5" fill="#8892a4">Geopolitical &amp; macroeconomic…</text>
+  <text x="66" y="168" font-size="9.5" fill="#8892a4">simulator</text>
 
-  <!-- bottom: arrow link -->
-  <line x1="64" y1="208" x2="268" y2="208"
-    stroke="#1a2744" stroke-width="0.8"/>
-  <text x="66" y="226" font-size="9" fill="#f7df1e" font-weight="700">View on GitHub →</text>
+  <!-- bottom divider + link -->
+  <line x1="64" y1="210" x2="268" y2="210"
+    stroke="#1a2744" stroke-width="0.7"/>
+  <text x="66" y="228" font-size="9" fill="#f7df1e" font-weight="700"
+  >github.com/Aman-Amarjit/RULE-THE-WORLD →</text>
 </g>
-<!-- card 0 clip -->
 
-<!-- card 1: crypto-bot -->
+<!-- card 1 -->
 <g opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.31s" dur="0.4s" fill="freeze"/>
 
   <!-- card bg -->
-  <rect x="298" y="86" width="228" height="150" rx="12"
+  <rect x="298" y="82" width="228" height="158" rx="12"
     fill="#0d1526" stroke="#1a2744" stroke-width="1"/>
-  <!-- top accent stripe -->
-  <rect x="298" y="86" width="228" height="4" rx="0"
+  <!-- top accent stripe (clipped to rounded rect) -->
+  <rect x="298" y="82" width="228" height="4" rx="12"
     fill="#3776ab" clip-path="url(#cpcard1-pj)"/>
-  <!-- top-left radius clip for accent stripe -->
 
-  <!-- language color dot + name -->
-  <circle cx="314" cy="108" r="4.5" fill="#3776ab"/>
-  <text x="324" y="112" font-size="8.5" font-weight="700"
+  <!-- lang dot + name -->
+  <circle cx="314" cy="104" r="4" fill="#3776ab"/>
+  <text x="324" y="108" font-size="8" font-weight="700"
     fill="#3776ab" letter-spacing="0.8">PYTHON</text>
 
-  <!-- star count -->
-  <text x="512" y="112" font-size="9" fill="#f7c948"
+  <!-- stars -->
+  <text x="514" y="108" font-size="9" fill="#f7c948"
     text-anchor="end">★★★</text>
 
-  <!-- divider -->
-  <line x1="310" y1="120" x2="514" y2="120"
-    stroke="#1a2744" stroke-width="0.8"/>
+  <!-- thin divider -->
+  <line x1="310" y1="116" x2="514" y2="116"
+    stroke="#1a2744" stroke-width="0.7"/>
 
   <!-- project name -->
-  <text x="312" y="140" font-size="12.5" font-weight="800"
+  <text x="312" y="136" font-size="12" font-weight="800"
     fill="#e8eaf0">crypto-bot</text>
-  
 
-  <!-- description -->
-  <text x="312" y="158" font-size="10" fill="#8892a4"
-    class="mono">Threads AI-powered crypto content ge</text>
-  <text x="312" y="172" font-size="10" fill="#8892a4" class="mono">nera…</text>
+  <!-- description (safe, two lines max) -->
+  <text x="312" y="154" font-size="9.5" fill="#8892a4">Threads AI-powered crypto…</text>
+  <text x="312" y="168" font-size="9.5" fill="#8892a4">content generation</text>
 
-  <!-- bottom: arrow link -->
-  <line x1="310" y1="208" x2="514" y2="208"
-    stroke="#1a2744" stroke-width="0.8"/>
-  <text x="312" y="226" font-size="9" fill="#3776ab" font-weight="700">View on GitHub →</text>
+  <!-- bottom divider + link -->
+  <line x1="310" y1="210" x2="514" y2="210"
+    stroke="#1a2744" stroke-width="0.7"/>
+  <text x="312" y="228" font-size="9" fill="#3776ab" font-weight="700"
+  >github.com/Aman-Amarjit/crypto-bot →</text>
 </g>
-<!-- card 1 clip -->
 
-<!-- card 2: conformalized-brain-tumor-agent -->
+<!-- card 2 -->
 <g opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.42s" dur="0.4s" fill="freeze"/>
 
   <!-- card bg -->
-  <rect x="544" y="86" width="228" height="150" rx="12"
+  <rect x="544" y="82" width="228" height="158" rx="12"
     fill="#0d1526" stroke="#1a2744" stroke-width="1"/>
-  <!-- top accent stripe -->
-  <rect x="544" y="86" width="228" height="4" rx="0"
+  <!-- top accent stripe (clipped to rounded rect) -->
+  <rect x="544" y="82" width="228" height="4" rx="12"
     fill="#3178c6" clip-path="url(#cpcard2-pj)"/>
-  <!-- top-left radius clip for accent stripe -->
 
-  <!-- language color dot + name -->
-  <circle cx="560" cy="108" r="4.5" fill="#3178c6"/>
-  <text x="570" y="112" font-size="8.5" font-weight="700"
+  <!-- lang dot + name -->
+  <circle cx="560" cy="104" r="4" fill="#3178c6"/>
+  <text x="570" y="108" font-size="8" font-weight="700"
     fill="#3178c6" letter-spacing="0.8">TYPESCRIPT</text>
 
-  <!-- star count -->
-  <text x="758" y="112" font-size="9" fill="#f7c948"
+  <!-- stars -->
+  <text x="760" y="108" font-size="9" fill="#f7c948"
     text-anchor="end">★★☆</text>
 
-  <!-- divider -->
-  <line x1="556" y1="120" x2="760" y2="120"
-    stroke="#1a2744" stroke-width="0.8"/>
+  <!-- thin divider -->
+  <line x1="556" y1="116" x2="760" y2="116"
+    stroke="#1a2744" stroke-width="0.7"/>
 
   <!-- project name -->
-  <text x="558" y="140" font-size="12.5" font-weight="800"
-    fill="#e8eaf0">conformalized-brain-tu</text>
-  <text x="558" y="156" font-size="12.5" font-weight="800" fill="#e8eaf0">mor-agent</text>
+  <text x="558" y="136" font-size="12" font-weight="800"
+    fill="#e8eaf0">conformalized-brain-t…</text>
 
-  <!-- description -->
-  <text x="558" y="174" font-size="10" fill="#8892a4"
-    class="mono">Statistically guaranteed MRI predict</text>
-  <text x="558" y="188" font-size="10" fill="#8892a4" class="mono">ion …</text>
+  <!-- description (safe, two lines max) -->
+  <text x="558" y="154" font-size="9.5" fill="#8892a4">Statistically guaranteed MRI…</text>
+  <text x="558" y="168" font-size="9.5" fill="#8892a4">prediction sets</text>
 
-  <!-- bottom: arrow link -->
-  <line x1="556" y1="208" x2="760" y2="208"
-    stroke="#1a2744" stroke-width="0.8"/>
-  <text x="558" y="226" font-size="9" fill="#3178c6" font-weight="700">View on GitHub →</text>
+  <!-- bottom divider + link -->
+  <line x1="556" y1="210" x2="760" y2="210"
+    stroke="#1a2744" stroke-width="0.7"/>
+  <text x="558" y="228" font-size="9" fill="#3178c6" font-weight="700"
+  >github.com/Aman-Amarjit/conformalized-brai →</text>
 </g>
-<!-- card 2 clip -->
 
-<!-- card 3: discord-ai -->
+<!-- card 3 -->
 <g opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.53s" dur="0.4s" fill="freeze"/>
 
   <!-- card bg -->
-  <rect x="52" y="254" width="228" height="150" rx="12"
+  <rect x="52" y="256" width="228" height="158" rx="12"
     fill="#0d1526" stroke="#1a2744" stroke-width="1"/>
-  <!-- top accent stripe -->
-  <rect x="52" y="254" width="228" height="4" rx="0"
+  <!-- top accent stripe (clipped to rounded rect) -->
+  <rect x="52" y="256" width="228" height="4" rx="12"
     fill="#3776ab" clip-path="url(#cpcard3-pj)"/>
-  <!-- top-left radius clip for accent stripe -->
 
-  <!-- language color dot + name -->
-  <circle cx="68" cy="276" r="4.5" fill="#3776ab"/>
-  <text x="78" y="280" font-size="8.5" font-weight="700"
+  <!-- lang dot + name -->
+  <circle cx="68" cy="278" r="4" fill="#3776ab"/>
+  <text x="78" y="282" font-size="8" font-weight="700"
     fill="#3776ab" letter-spacing="0.8">PYTHON</text>
 
-  <!-- star count -->
-  <text x="266" y="280" font-size="9" fill="#f7c948"
+  <!-- stars -->
+  <text x="268" y="282" font-size="9" fill="#f7c948"
     text-anchor="end">★★☆</text>
 
-  <!-- divider -->
-  <line x1="64" y1="288" x2="268" y2="288"
-    stroke="#1a2744" stroke-width="0.8"/>
+  <!-- thin divider -->
+  <line x1="64" y1="290" x2="268" y2="290"
+    stroke="#1a2744" stroke-width="0.7"/>
 
   <!-- project name -->
-  <text x="66" y="308" font-size="12.5" font-weight="800"
+  <text x="66" y="310" font-size="12" font-weight="800"
     fill="#e8eaf0">discord-ai</text>
-  
 
-  <!-- description -->
-  <text x="66" y="326" font-size="10" fill="#8892a4"
-    class="mono">Autonomous AI agent with mood-state </text>
-  <text x="66" y="340" font-size="10" fill="#8892a4" class="mono">engine</text>
+  <!-- description (safe, two lines max) -->
+  <text x="66" y="328" font-size="9.5" fill="#8892a4">Autonomous AI agent with…</text>
+  <text x="66" y="342" font-size="9.5" fill="#8892a4">mood-state engine</text>
 
-  <!-- bottom: arrow link -->
-  <line x1="64" y1="376" x2="268" y2="376"
-    stroke="#1a2744" stroke-width="0.8"/>
-  <text x="66" y="394" font-size="9" fill="#3776ab" font-weight="700">View on GitHub →</text>
+  <!-- bottom divider + link -->
+  <line x1="64" y1="384" x2="268" y2="384"
+    stroke="#1a2744" stroke-width="0.7"/>
+  <text x="66" y="402" font-size="9" fill="#3776ab" font-weight="700"
+  >github.com/Aman-Amarjit/discord-ai →</text>
 </g>
-<!-- card 3 clip -->
 
-<!-- card 4: solar-system-using-hand-gesture -->
+<!-- card 4 -->
 <g opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.64s" dur="0.4s" fill="freeze"/>
 
   <!-- card bg -->
-  <rect x="298" y="254" width="228" height="150" rx="12"
+  <rect x="298" y="256" width="228" height="158" rx="12"
     fill="#0d1526" stroke="#1a2744" stroke-width="1"/>
-  <!-- top accent stripe -->
-  <rect x="298" y="254" width="228" height="4" rx="0"
+  <!-- top accent stripe (clipped to rounded rect) -->
+  <rect x="298" y="256" width="228" height="4" rx="12"
     fill="#e34c26" clip-path="url(#cpcard4-pj)"/>
-  <!-- top-left radius clip for accent stripe -->
 
-  <!-- language color dot + name -->
-  <circle cx="314" cy="276" r="4.5" fill="#e34c26"/>
-  <text x="324" y="280" font-size="8.5" font-weight="700"
+  <!-- lang dot + name -->
+  <circle cx="314" cy="278" r="4" fill="#e34c26"/>
+  <text x="324" y="282" font-size="8" font-weight="700"
     fill="#e34c26" letter-spacing="0.8">HTML</text>
 
-  <!-- star count -->
-  <text x="512" y="280" font-size="9" fill="#f7c948"
+  <!-- stars -->
+  <text x="514" y="282" font-size="9" fill="#f7c948"
     text-anchor="end">★★☆</text>
 
-  <!-- divider -->
-  <line x1="310" y1="288" x2="514" y2="288"
-    stroke="#1a2744" stroke-width="0.8"/>
+  <!-- thin divider -->
+  <line x1="310" y1="290" x2="514" y2="290"
+    stroke="#1a2744" stroke-width="0.7"/>
 
   <!-- project name -->
-  <text x="312" y="308" font-size="12.5" font-weight="800"
-    fill="#e8eaf0">solar-system-using-han</text>
-  <text x="312" y="324" font-size="12.5" font-weight="800" fill="#e8eaf0">d-gesture</text>
+  <text x="312" y="310" font-size="12" font-weight="800"
+    fill="#e8eaf0">solar-system-using-ha…</text>
 
-  <!-- description -->
-  <text x="312" y="342" font-size="10" fill="#8892a4"
-    class="mono">WebGL solar system via MediaPipe han</text>
-  <text x="312" y="356" font-size="10" fill="#8892a4" class="mono">d ge…</text>
+  <!-- description (safe, two lines max) -->
+  <text x="312" y="328" font-size="9.5" fill="#8892a4">WebGL solar system via…</text>
+  <text x="312" y="342" font-size="9.5" fill="#8892a4">MediaPipe hand gestures</text>
 
-  <!-- bottom: arrow link -->
-  <line x1="310" y1="376" x2="514" y2="376"
-    stroke="#1a2744" stroke-width="0.8"/>
-  <text x="312" y="394" font-size="9" fill="#e34c26" font-weight="700">View on GitHub →</text>
+  <!-- bottom divider + link -->
+  <line x1="310" y1="384" x2="514" y2="384"
+    stroke="#1a2744" stroke-width="0.7"/>
+  <text x="312" y="402" font-size="9" fill="#e34c26" font-weight="700"
+  >github.com/Aman-Amarjit/solar-system-using →</text>
 </g>
-<!-- card 4 clip -->
 
-<!-- card 5: personal-butler -->
+<!-- card 5 -->
 <g opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.75s" dur="0.4s" fill="freeze"/>
 
   <!-- card bg -->
-  <rect x="544" y="254" width="228" height="150" rx="12"
+  <rect x="544" y="256" width="228" height="158" rx="12"
     fill="#0d1526" stroke="#1a2744" stroke-width="1"/>
-  <!-- top accent stripe -->
-  <rect x="544" y="254" width="228" height="4" rx="0"
+  <!-- top accent stripe (clipped to rounded rect) -->
+  <rect x="544" y="256" width="228" height="4" rx="12"
     fill="#3776ab" clip-path="url(#cpcard5-pj)"/>
-  <!-- top-left radius clip for accent stripe -->
 
-  <!-- language color dot + name -->
-  <circle cx="560" cy="276" r="4.5" fill="#3776ab"/>
-  <text x="570" y="280" font-size="8.5" font-weight="700"
+  <!-- lang dot + name -->
+  <circle cx="560" cy="278" r="4" fill="#3776ab"/>
+  <text x="570" y="282" font-size="8" font-weight="700"
     fill="#3776ab" letter-spacing="0.8">PYTHON</text>
 
-  <!-- star count -->
-  <text x="758" y="280" font-size="9" fill="#f7c948"
+  <!-- stars -->
+  <text x="760" y="282" font-size="9" fill="#f7c948"
     text-anchor="end">★★☆</text>
 
-  <!-- divider -->
-  <line x1="556" y1="288" x2="760" y2="288"
-    stroke="#1a2744" stroke-width="0.8"/>
+  <!-- thin divider -->
+  <line x1="556" y1="290" x2="760" y2="290"
+    stroke="#1a2744" stroke-width="0.7"/>
 
   <!-- project name -->
-  <text x="558" y="308" font-size="12.5" font-weight="800"
+  <text x="558" y="310" font-size="12" font-weight="800"
     fill="#e8eaf0">personal-butler</text>
-  
 
-  <!-- description -->
-  <text x="558" y="326" font-size="10" fill="#8892a4"
-    class="mono">AI Desktop Agent — episodic memory &</text>
-  <text x="558" y="340" font-size="10" fill="#8892a4" class="mono">…</text>
+  <!-- description (safe, two lines max) -->
+  <text x="558" y="328" font-size="9.5" fill="#8892a4">AI Desktop Agent — episodic…</text>
+  <text x="558" y="342" font-size="9.5" fill="#8892a4">memory &amp; local RAG</text>
 
-  <!-- bottom: arrow link -->
-  <line x1="556" y1="376" x2="760" y2="376"
-    stroke="#1a2744" stroke-width="0.8"/>
-  <text x="558" y="394" font-size="9" fill="#3776ab" font-weight="700">View on GitHub →</text>
+  <!-- bottom divider + link -->
+  <line x1="556" y1="384" x2="760" y2="384"
+    stroke="#1a2744" stroke-width="0.7"/>
+  <text x="558" y="402" font-size="9" fill="#3776ab" font-weight="700"
+  >github.com/Aman-Amarjit/personal-butler →</text>
 </g>
-<!-- card 5 clip -->
 
 
-<!-- bottom hint -->
+<!-- footer -->
 <text x="52" y="464" font-size="9" fill="#1a2744" class="mono"
->github.com/Aman-Amarjit  ·  29 public repos  ·  all projects are open source</text>
+>github.com/Aman-Amarjit  ·  29 public repos  ·  all projects open source</text>
 </svg>
