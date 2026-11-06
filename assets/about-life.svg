@@ -35,6 +35,12 @@ text,tspan{font-family:'Inter',system-ui,sans-serif;}
 <clipPath id="cpface-ab">
   <rect x="420" y="122" width="122" height="158" rx="8"/>
 </clipPath>
+<!-- typewriter clip: reveals terminal text left to right -->
+<clipPath id="cptype-ab">
+  <rect x="40" y="120" height="30" width="0">
+    <animate attributeName="width" values="0;252" begin="0.4s" dur="1.9s" fill="freeze" calcMode="linear"/>
+  </rect>
+</clipPath>
 <linearGradient id="gfadefr-ab" x1="0" y1="0" x2="0" y2="1">
   <stop offset="65%" stop-color="#040810" stop-opacity="0"/>
   <stop offset="100%" stop-color="#040810" stop-opacity="0.65"/>
@@ -54,14 +60,19 @@ text,tspan{font-family:'Inter',system-ui,sans-serif;}
 <!-- Left divider -->
 <line x1="40" y1="120" x2="380" y2="120" stroke="#1a2744" stroke-width="1"/>
 
-<!-- Terminal line -->
-<text x="40" y="142" font-size="12.5" fill="#247bff" class="mono"
-  opacity="0"><animate attributeName="opacity" values="0;1" begin="0.2s" dur="0.3s" fill="freeze"/>
-<tspan fill="#8892a4">&#x276F; </tspan>build_autonomous_ai_systems()</text>
-<!-- blinking cursor -->
-<rect x="295" y="127" width="2" height="16" fill="#247bff" opacity="0">
-  <animate attributeName="opacity" values="0;0" dur="0.3s" fill="freeze"/>
-  <animate attributeName="opacity" values="1;0;1" dur="0.75s" begin="0.6s" repeatCount="indefinite"/>
+<!-- Terminal line: revealed by typewriter clip -->
+<g clip-path="url(#cptype-ab)">
+  <text x="40" y="142" font-size="12.5" fill="#247bff" class="mono"
+  ><tspan fill="#8892a4">&#x276F; </tspan>build_autonomous_ai_systems()</text>
+</g>
+<!-- cursor slides right as text types, then blinks in place -->
+<rect y="127" width="2" height="16" rx="1" fill="#247bff">
+  <!-- slide from start to end of text (matches clip animation) -->
+  <animate attributeName="x" values="40;292" begin="0.4s" dur="1.9s" fill="freeze" calcMode="linear"/>
+  <!-- stay invisible until typing starts -->
+  <animate attributeName="opacity" values="0;1" begin="0.4s" dur="0.05s" fill="freeze"/>
+  <!-- blink after typing finishes -->
+  <animate attributeName="opacity" values="1;0;1" dur="0.75s" begin="2.3s" repeatCount="indefinite"/>
 </rect>
 
 <!-- Pipeline boxes: BUILD → ENGINEER → SHIP -->
