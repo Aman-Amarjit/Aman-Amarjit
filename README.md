@@ -47,7 +47,7 @@
 &nbsp;
 [![Discord](https://img.shields.io/badge/Discord-aman_amarjit-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.com/users/aman_amarjit)
 &nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-amanamarjit243222-E1306C?logo=instagram&logoColor=white&style=for-the-badge)](https://instagram.com/amanamarjit243222)
+[![Instagram](https://img.shields.io/badge/Instagram-amanamarjit8-E1306C?logo=instagram&logoColor=white&style=for-the-badge)](https://instagram.com/amanamarjit8)
 
 </p>
 
