@@ -271,21 +271,21 @@ text,tspan{font-family:'Inter',system-ui,sans-serif;}
       stroke="#1a2744" stroke-width="0.8"/>
 
     <!-- ── INFO FIELDS (2×2 grid) ── -->
-    <text x="332" y="252" font-size="7" font-weight="700" fill="#8892a4" letter-spacing="1.2">ID NUMBER</text><text x="332" y="266" font-size="11" font-weight="700" fill="#e8eaf0" class="mono">AAJ-0029-IN-2025</text><text x="467" y="252" font-size="7" font-weight="700" fill="#8892a4" letter-spacing="1.2">ORGANIZATION</text><text x="467" y="266" font-size="11" font-weight="700" fill="#e8eaf0" class="mono">GitHub · Open Source</text><text x="332" y="304" font-size="7" font-weight="700" fill="#8892a4" letter-spacing="1.2">ISSUED</text><text x="332" y="318" font-size="11" font-weight="700" fill="#e8eaf0" class="mono">2025 · 05 · 25</text><text x="467" y="304" font-size="7" font-weight="700" fill="#8892a4" letter-spacing="1.2">EXPIRES</text><text x="467" y="318" font-size="11" font-weight="700" fill="#e8eaf0" class="mono">2027 · 05 · 24</text>
+    <text x="332" y="300" font-size="7" font-weight="700" fill="#8892a4" letter-spacing="1.2">ID NUMBER</text><text x="332" y="314" font-size="11" font-weight="700" fill="#e8eaf0" class="mono">AAJ-0029-IN-2025</text><text x="467" y="300" font-size="7" font-weight="700" fill="#8892a4" letter-spacing="1.2">ORGANIZATION</text><text x="467" y="314" font-size="11" font-weight="700" fill="#e8eaf0" class="mono">GitHub · Open Source</text><text x="332" y="348" font-size="7" font-weight="700" fill="#8892a4" letter-spacing="1.2">DATE OF BIRTH</text><text x="332" y="362" font-size="11" font-weight="700" fill="#e8eaf0" class="mono">10 / 07 / 2007</text><text x="467" y="348" font-size="7" font-weight="700" fill="#8892a4" letter-spacing="1.2">CLEARANCE</text><text x="467" y="362" font-size="11" font-weight="700" fill="#e8eaf0" class="mono">OPEN SOURCE · PUBLIC</text>
 
     <!-- horizontal divider between field rows -->
-    <line x1="332" y1="320" x2="594" y2="320"
+    <line x1="332" y1="370" x2="594" y2="370"
       stroke="#1a2744" stroke-width="0.8"/>
 
     <!-- vertical divider between col 1 and col 2 of fields -->
-    <line x1="461" y1="286" x2="461" y2="348"
+    <line x1="461" y1="286" x2="461" y2="396"
       stroke="#1a2744" stroke-width="0.8"/>
 
     <!-- ── SPECIALTY TAGS ── -->
-    <rect x="332" y="350" width="60" height="15" rx="7.5" fill="#247bff22" stroke="#247bff" stroke-width="0.8"/><text x="362" y="361" font-size="7" font-weight="700" fill="#247bff" text-anchor="middle" letter-spacing="0.5">AI / ML</text><rect x="397.5" y="350" width="86" height="15" rx="7.5" fill="#22c55e22" stroke="#22c55e" stroke-width="0.8"/><text x="440" y="361" font-size="7" font-weight="700" fill="#22c55e" text-anchor="middle" letter-spacing="0.5">OPEN SOURCE</text><rect x="489.0" y="350" width="66" height="15" rx="7.5" fill="#a855f722" stroke="#a855f7" stroke-width="0.8"/><text x="522" y="361" font-size="7" font-weight="700" fill="#a855f7" text-anchor="middle" letter-spacing="0.5">AUTONOMY</text>
+    <rect x="332" y="400" width="60" height="15" rx="7.5" fill="#247bff22" stroke="#247bff" stroke-width="0.8"/><text x="362" y="411" font-size="7" font-weight="700" fill="#247bff" text-anchor="middle" letter-spacing="0.5">AI / ML</text><rect x="397.5" y="400" width="86" height="15" rx="7.5" fill="#22c55e22" stroke="#22c55e" stroke-width="0.8"/><text x="440" y="411" font-size="7" font-weight="700" fill="#22c55e" text-anchor="middle" letter-spacing="0.5">OPEN SOURCE</text><rect x="489.0" y="400" width="66" height="15" rx="7.5" fill="#a855f722" stroke="#a855f7" stroke-width="0.8"/><text x="522" y="411" font-size="7" font-weight="700" fill="#a855f7" text-anchor="middle" letter-spacing="0.5">AUTONOMY</text>
 
     <!-- ── BOTTOM STRIP: divider line ── -->
-    <line x1="200" y1="393" x2="600" y2="393"
+    <line x1="200" y1="397" x2="600" y2="397"
       stroke="#1a2744" stroke-width="0.8"/>
 
     <!-- ── EMV CHIP ── -->
@@ -337,5 +337,5 @@ text,tspan{font-family:'Inter',system-ui,sans-serif;}
 </g>
 
 <text x="52" y="564" font-size="9" fill="#1a2744" class="mono"
->github.com/Aman-Amarjit  ·  Verified  ·  29 Public Repos  ·  Issued 2025</text>
+>github.com/Aman-Amarjit  ·  Verified  ·  29 Public Repos  ·  DOB: 10 / 07 / 2007</text>
 </svg>
