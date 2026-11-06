@@ -35,10 +35,13 @@ text,tspan{font-family:'Inter',system-ui,sans-serif;}
 <clipPath id="cpface-ab">
   <rect x="420" y="122" width="122" height="158" rx="8"/>
 </clipPath>
-<!-- typewriter clip: reveals terminal text left to right -->
+<!-- typewriter clip: discrete per-character reveal -->
 <clipPath id="cptype-ab">
   <rect x="40" y="120" height="30" width="0">
-    <animate attributeName="width" values="0;252" begin="0.4s" dur="1.9s" fill="freeze" calcMode="linear"/>
+    <animate attributeName="width"
+      values="0.0;7.5;15.0;22.5;30.0;37.5;45.0;52.5;60.0;67.5;75.0;82.5;90.0;97.5;105.0;112.5;120.0;127.5;135.0;142.5;150.0;157.5;165.0;172.5;180.0;187.5;195.0;202.5;210.0;217.5;225.0;232.5" keyTimes="0.00000;0.03226;0.06452;0.09677;0.12903;0.16129;0.19355;0.22581;0.25806;0.29032;0.32258;0.35484;0.38710;0.41935;0.45161;0.48387;0.51613;0.54839;0.58065;0.61290;0.64516;0.67742;0.70968;0.74194;0.77419;0.80645;0.83871;0.87097;0.90323;0.93548;0.96774;1.00000"
+      begin="0.5s" dur="2.4s"
+      calcMode="discrete" fill="freeze"/>
   </rect>
 </clipPath>
 <linearGradient id="gfadefr-ab" x1="0" y1="0" x2="0" y2="1">
@@ -60,19 +63,19 @@ text,tspan{font-family:'Inter',system-ui,sans-serif;}
 <!-- Left divider -->
 <line x1="40" y1="120" x2="380" y2="120" stroke="#1a2744" stroke-width="1"/>
 
-<!-- Terminal line: revealed by typewriter clip -->
+<!-- Terminal line: revealed character-by-character -->
 <g clip-path="url(#cptype-ab)">
   <text x="40" y="142" font-size="12.5" fill="#247bff" class="mono"
   ><tspan fill="#8892a4">&#x276F; </tspan>build_autonomous_ai_systems()</text>
 </g>
-<!-- cursor slides right as text types, then blinks in place -->
-<rect y="127" width="2" height="16" rx="1" fill="#247bff">
-  <!-- slide from start to end of text (matches clip animation) -->
-  <animate attributeName="x" values="40;292" begin="0.4s" dur="1.9s" fill="freeze" calcMode="linear"/>
-  <!-- stay invisible until typing starts -->
-  <animate attributeName="opacity" values="0;1" begin="0.4s" dur="0.05s" fill="freeze"/>
-  <!-- blink after typing finishes -->
-  <animate attributeName="opacity" values="1;0;1" dur="0.75s" begin="2.3s" repeatCount="indefinite"/>
+<!-- cursor steps right with each character, then blinks -->
+<rect y="127" width="2" height="16" rx="1" fill="#247bff" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.01s" fill="freeze"/>
+  <animate attributeName="x"
+    values="40.0;47.5;55.0;62.5;70.0;77.5;85.0;92.5;100.0;107.5;115.0;122.5;130.0;137.5;145.0;152.5;160.0;167.5;175.0;182.5;190.0;197.5;205.0;212.5;220.0;227.5;235.0;242.5;250.0;257.5;265.0;272.5" keyTimes="0.00000;0.03226;0.06452;0.09677;0.12903;0.16129;0.19355;0.22581;0.25806;0.29032;0.32258;0.35484;0.38710;0.41935;0.45161;0.48387;0.51613;0.54839;0.58065;0.61290;0.64516;0.67742;0.70968;0.74194;0.77419;0.80645;0.83871;0.87097;0.90323;0.93548;0.96774;1.00000"
+    begin="0.5s" dur="2.4s"
+    calcMode="discrete" fill="freeze"/>
+  <animate attributeName="opacity" values="1;0;1" dur="0.75s" begin="3.0s" repeatCount="indefinite"/>
 </rect>
 
 <!-- Pipeline boxes: BUILD → ENGINEER → SHIP -->
